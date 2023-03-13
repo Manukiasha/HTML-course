@@ -1,0 +1,47 @@
+@media screen and (max-width: 700px) {
+    html {
+        background: rgb(222, 204, 245);
+    }
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+    .logo_picture {
+        display: block;
+        margin: auto;
+    }
+    h1 {
+        text-align: center;
+        font-size: 1.4em;
+    }
+    iframe {
+        width: 100%;
+        align-content: center;
+    }
+    header ul,
+    header li {
+        display: block;
+        font-size: 14px;
+    }
+    nav a:hover {
+        background-color: transparent;
+        transform: none;
+    }
+    .cols {
+        display: block;
+    }
+    .col {
+        width: 100%;
+        background: #ffffff;
+        text-align: center;
+        margin: 0;
+        border: 1px solid rgb(186, 14, 140)
+    }
+    table {
+        font-size: 14px;
+    }
+    p {
+        line-height: 1.4em;
+        text-indent: 30px;
+    }
+}

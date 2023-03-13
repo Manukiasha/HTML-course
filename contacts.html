@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My professional webpage</title>
+    <base target="_blank">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media=print href="print.css">
+    <link rel="stylesheet" media=screen href="screen.css">
+    <style>
+        li {
+            list-style: none;
+        }
+        
+        .contacts li::before {
+            content: '';
+            display: inline-block;
+            height: 25px;
+            width: 25px;
+            background-image: url(Group_14.png);
+            background-size: 100%;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <figure>
+            <a href="index.html"> <img class="logo_picture" src="Group_44.png" alt="Email-маркетинг" height="50"> </a>
+        </figure>
+        <div class="container">
+            <h1 title="Ваш Email-специалист">Контакты</h1>
+            <div>
+                <p class="comment">Выберите любой удобный для вас способ связи.</p>
+            </div>
+        </div>
+
+        <div>
+            <nav>
+                <ul style="font-weight: 600;">
+                    <li><a href="index.html">Главная</a> </li>
+                    <li><a href="about.html">Общее</a> </li>
+                    <li><a href="catalog.html">Услуги</a> </li>
+                    <li><a href="contacts.html">Контакты</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h2><strong>Заинтересовало?</strong></h2>
+                <p><strong>Свяжитесь со мной:</strong></p>
+                <ul class="contacts">
+                    <li>по телефону: <a href="tel:+79104474924">+7 (910) 447-49-24</a>
+                        <li>по e-mail: <a href="mailto:amanukian13@gmail.com">amanukian13@gmail.com</a>
+                            <li>в <a href="https://t.me/manukiasha">Telegram</a>
+                                <li>в <a href="https://wa.me/79104474924?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5,%20%D0%90%D0%BD%D0%BD%D0%B0!%20%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B7%D0%B0%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%BE%D0%B2%D0%B0%D0%BB%D0%BE%20%D0%B2%D0%B0%D1%88%D0%B5%20%D0%BF%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE.">WhatsApp</a>
+                                </li>
+                </ul>
+                <br>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <p><strong>Или оставьте заявку:</strong></p>
+            </div>
+        </section>
+        <section>
+            <form action="/">
+                <p>Введите ваше имя <input type="text" name="firstname" placeholder="Имя"></p>
+                <p>Введите ваш email <input type="email" name="email" placeholder="ivanov@mail.ru" /></p>
+                <p>Выберите услугу: <select name="service" size="2" multiple>
+                      <option value="1">Email-маркетинг</option>
+                      <option value="2">Комплекс direct-коммуникаций</option>
+                      <option value="3">Аналитика</option>
+                      <option value="4">Кастомизированно</option>
+                    </select>
+                </p>
+                <input type="checkbox" name="agree-box" value="1" checked />Соглашаюсь на обработку персональных данных.
+                <br>
+                <input type="submit" value="Отправить" />
+                <input type="reset" value="Очистить" />
+
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p class="foot"><strong>Анна Манукян — ваш Email-маркетолог</strong></p>
+            <p>Телефон: <a href="tel:+79104474924">+7 (910) 447-49-24</a>
+                <br>E-mail: <a href="mailto:amanukian13@gmail.com">amanukian13@gmail.com</a></p>
+
+            <p><small>&copy; Примеры работ и тексты использованы для демонстрации моих навыков, пожалуйста, не используйте их в коммерческих целях.</small></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

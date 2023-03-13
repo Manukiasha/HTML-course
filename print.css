@@ -1,0 +1,29 @@
+* {
+    color: black;
+    background: transparent;
+}
+
+html {
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+footer {
+    font-size: 32px;
+}
+
+iframe,
+section img,
+nav {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: black;
+}
